@@ -1,0 +1,8 @@
+function main() {
+  var formId = '----------------------------------------------';    // formId
+  var tokens = ['----------------------------------------------'];   // Line Notify token กรณีส่งเข้าไลน์มากกว่าสองกลุ่ม ให้คั่นแต่ละ Token ด้วย , 
+  LunchNotifyBot.LunchBot (formId, tokens);
+}
+
+// หากมีข้อสงสัยโปรดติดต่อ Facebook Page : เมื่อฅนเขียนโปรแกรม มาเป็นครูวิทย์
+// This library was developed by Kru'Arif Dueramae from Chao Thai Mai School.
